@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://minimo6666.github.io/sitemap.xml
