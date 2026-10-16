@@ -35,7 +35,7 @@ p + p { margin-top: .85rem; }
 .site-header a[aria-current='page'] { font-weight: 600; color: #171717; }
 .hero { padding: 3.3rem 0 1.5rem; }
 .hero-grid { display: grid; grid-template-columns: 216px 1fr; align-items: start; gap: 2rem; }
-.avatar { width: 216px; height: auto; border-radius: 6px; }
+.avatar { width: 216px; height: 216px; border-radius: 50%; object-fit: cover; object-position: center 35%; }
 .bio { margin-top: 1rem; color: var(--body); }
 .profile-links { display: flex; flex-wrap: wrap; gap: 1.2rem; margin-top: 1.3rem; font-family: var(--sans); font-size: .82rem; }
 .profile-links a { display: inline-flex; align-items: center; gap: .35rem; text-decoration: none; }
@@ -90,7 +90,7 @@ p + p { margin-top: .85rem; }
   .container { padding-inline: 22px; }
   .hero { padding-top: 1.8rem; padding-bottom: 1.2rem; }
   .hero-grid { grid-template-columns: 1fr; gap: 1.4rem; text-align: center; }
-  .avatar { width: 156px; height: auto; margin-inline: auto; }
+  .avatar { width: 156px; height: 156px; margin-inline: auto; }
   .bio { max-width: 34rem; margin-inline: auto; }
   .profile-links { justify-content: center; }
   .highlights { padding-block: 1.4rem; }
